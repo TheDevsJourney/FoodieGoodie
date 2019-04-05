@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import axios from "axios";
-import { withRouter, Link } from "react-router-dom";
+import { withRouter } from "react-router-dom";
 import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
 import CardActionArea from "@material-ui/core/CardActionArea";
@@ -113,40 +113,5 @@ class Recipes extends Component {
   }
 }
 
-// const API_KEY = "9425526c145456e3301a68362ceec30e";
-// const API_KEY = "969d7013d2c6acde5ad40d84b8311ec6";
-// const API_KEY = "2ad474075136ca1917df14d0c0480ae6";
-// const API_KEY = "fb7d0d78ef760b4e683e3f9652cf2919";
-// const API_KEY = "8742ef7e08cac64ebc328a0f2ad9de66";
-// const API_KEY = "562742e872b646fe78e1624017cfbc5e";
-// const API_KEY = "5fe88af8dcfd239cf724ffdb514094e5";
-
-// const API_KEY = "d4a421e37d43a4499cd67d0c578249cd";
-const API_KEY = "0b9a49c25567210ee25fb0f348558e31";
-// const API_KEY = "8d154f8f0850a1bc59c3876eb7a77d24";
-// const API_KEY = "84410c50ff3b6e41f6d16212279e2126";
-// const API_KEY = "c796f7b7cc7142d045728f32684a3153";
-// const API_KEY = "de7dd6c2dec95fc64699d7781e6e7bac";
-// const API_KEY = "6c19ba0e3860fba3a047a6d4e5625203";
-
+const API_KEY = "d4a421e37d43a4499cd67d0c578249cd";
 export default withRouter(Recipes);
-
-// render() {
-//   const { recipes } = this.state;
-//   return (
-//     <div>
-//       <h1>This is the Recipes page</h1>
-//       {recipes.map(recipe => (
-//         <h4
-//           onClick={() => {
-//             this.props.handleClick(recipe);
-//             this.onClick();
-//           }}
-//           style={{ margin: "10px 0", cursor: "pointer" }}
-//         >
-//           {recipe.title}
-//         </h4>
-//       ))}
-//     </div>
-//   );
-// }

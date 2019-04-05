@@ -14,15 +14,6 @@
   background-position: center center;
 }
 
-.homeSVG {
-  background-image: url("./images/food.svg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
-  height: 100%;
-  width: 100%;
-}
-
 .bgImg {
   background-image: url("./images/bgimg.jpeg");
   background-repeat: no-repeat;

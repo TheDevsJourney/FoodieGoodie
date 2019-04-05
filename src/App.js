@@ -65,7 +65,6 @@ class App extends Component {
         <div className="App">
           <Header onSubmit={this.onSubmit} />
           <Switch>
-            {/* <Route exact path="/" component={Home} /> */}
             <Route
               exact
               path="/"

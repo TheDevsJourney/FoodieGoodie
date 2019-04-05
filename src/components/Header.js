@@ -110,7 +110,6 @@ class Header extends Component {
               <Typography
                 className={this.props.classes.title}
                 variant="h6"
-                // color="inherit"
                 noWrap
                 style={{ color: "black" }}
               >
@@ -137,9 +136,6 @@ class Header extends Component {
 
               <div className={this.props.classes.grow} />
               <div className={this.props.classes.search}>
-                {/* <div className={this.props.classes.searchIcon}>
-                  <SearchIcon />
-                </div> */}
                 <form
                   onSubmit={e => {
                     this.submitForm(e);
@@ -178,44 +174,3 @@ Header.propTypes = {
 };
 
 export default withRouter(withStyles(styles)(Header));
-
-// export default withRouter(Header);
-
-{
-  /* <div
-style={{
-  padding: "20px 0",
-  backgroundColor: "blue",
-  display: "flex",
-  justifyContent: "center",
-  alignItems: "center"
-}}
->
-<h1>React Testing Routes</h1>
-<form
-  onSubmit={e => {
-    this.submitForm(e);
-    this.props.onSubmit(this.state.text);
-  }}
->
-  <input
-    type="text"
-    placeholder="Some text here"
-    name="text"
-    value={this.state.text}
-    onChange={this.onChange}
-  />
-</form>
-
-<nav>
-  <ul>
-    <li>
-      <Link to="/">Home</Link>
-    </li>
-    <li>
-      <Link to="/recipes">Recipes</Link>
-    </li>
-  </ul>
-</nav>
-</div> */
-}
