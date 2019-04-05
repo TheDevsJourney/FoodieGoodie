@@ -3,7 +3,7 @@ import Header from "./components/Header";
 import Home from "./components/Home";
 import Recipes from "./components/Recipes";
 import Recipe from "./components/Recipe";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter, Route, Switch } from "react-router-dom";
 import "./App.css";
 
 class App extends Component {
@@ -61,7 +61,7 @@ class App extends Component {
 
   render() {
     return (
-      <BrowserRouter>
+      <HashRouter>
         <div className="App">
           <Header onSubmit={this.onSubmit} />
           <Switch>
@@ -87,7 +87,7 @@ class App extends Component {
             />
           </Switch>
         </div>
-      </BrowserRouter>
+      </HashRouter>
     );
   }
 }

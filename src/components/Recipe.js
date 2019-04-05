@@ -131,15 +131,18 @@ class Recipe extends Component {
                 {ingredient}
               </p>
             ))}
-            <p>
+            <p
+              style={{
+                wordBreak: "break-word"
+              }}
+            >
               Want Directions? Visit{" "}
               <a
                 href={recipe.source_url}
                 target="_blank"
                 style={{
                   textDecoration: "none",
-                  margin: "20px 0",
-                  textOverflow: "ellipsis"
+                  margin: "20px 0"
                 }}
               >
                 {recipe.source_url}
@@ -151,6 +154,5 @@ class Recipe extends Component {
     );
   }
 }
-
-const API_KEY = "d4a421e37d43a4499cd67d0c578249cd";
+const API_KEY = "84289bbc30a5727a88c6b319049a53b1";
 export default Recipe;

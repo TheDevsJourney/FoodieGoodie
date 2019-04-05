@@ -113,5 +113,5 @@ class Recipes extends Component {
   }
 }
 
-const API_KEY = "d4a421e37d43a4499cd67d0c578249cd";
+const API_KEY = "84289bbc30a5727a88c6b319049a53b1";
 export default withRouter(Recipes);
