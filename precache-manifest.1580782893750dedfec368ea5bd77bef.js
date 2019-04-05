@@ -8,19 +8,19 @@ self.__precacheManifest = [
     "url": "/FoodieGoodie/static/js/runtime~main.b56a8a4e.js"
   },
   {
-    "revision": "72a1578b206f17e84e74",
-    "url": "/FoodieGoodie/static/js/main.549353e8.chunk.js"
+    "revision": "10edfc7409bbcbf86f49",
+    "url": "/FoodieGoodie/static/js/main.68388a26.chunk.js"
   },
   {
     "revision": "587204583d1ae4903e0e",
     "url": "/FoodieGoodie/static/js/2.efb58ad5.chunk.js"
   },
   {
-    "revision": "72a1578b206f17e84e74",
+    "revision": "10edfc7409bbcbf86f49",
     "url": "/FoodieGoodie/static/css/main.b944764a.chunk.css"
   },
   {
-    "revision": "e14c6a8ffb8d416869e62974ba3818a9",
+    "revision": "b424e5ed5136db172d2f038aa4f552cf",
     "url": "/FoodieGoodie/index.html"
   }
 ];
